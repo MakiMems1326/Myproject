@@ -1,0 +1,51 @@
+cd 対象フォルダ
+
+pip3 install pipenv
+
+pipenv shell
+仮想環境構築
+
+pipenv install django
+
+
+pipenv install --dev flake8 autopep8
+開発者としてのみ使用
+
+
+
+django-admin startproject config .
+
+configフォルダ作成
+projectの内容をconfig内でインストール
+
+
+
+python3 manage.py runserver
+
+djangoが立ち上がる
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
